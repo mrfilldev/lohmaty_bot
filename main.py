@@ -9,7 +9,7 @@ from telegram import ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler
 
 logging.basicConfig(
-    level=logging.ERROR,
+    level=logging.DEBUG,
     filename='program.log',
     format='%(asctime)s, %(levelname)s, %(message)s, %(name)s'
 )
